@@ -450,6 +450,80 @@ figcaption {
   grid-row-end: 9;
 }
 
+/* Art portfolio container */
+#art {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 60px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.art-gallery {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(13, 5vw);
+  grid-gap: 15px;
+}
+
+.gallery-item-7 {
+  grid-column-start: 1;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 6;
+}
+
+.gallery-item-8 {
+  grid-column-start: 6;
+  grid-column-end: 9;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+
+.gallery-item-9 {
+  grid-column-start: 6;
+  grid-column-end: 9;
+  grid-row-start: 4;
+  grid-row-end: 7;
+}
+
+.gallery-item-10 {
+  grid-column-start: 1;
+  grid-column-end: 6;
+  grid-row-start: 6;
+  grid-row-end: 10;
+}
+
+.gallery-item-11 {
+  grid-column-start: 6;
+  grid-column-end: 9;
+  grid-row-start: 7;
+  grid-row-end: 10;
+}
+
+.gallery-item-12 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 10;
+  grid-row-end: 12;
+}
+
+.gallery-item-13 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 12;
+  grid-row-end: 14;
+}
+
+.gallery-item-14 {
+  grid-column-start: 4;
+  grid-column-end: 9;
+  grid-row-start: 10;
+  grid-row-end: 14;
+}
+
 
 
 h1,
