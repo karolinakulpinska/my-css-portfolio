@@ -361,7 +361,6 @@ body {
 /* Skills ends here */
 
 /* General gallery styles */
-
 figcaption {
   font-size: 0.8vmax;
   margin-top: 0;
@@ -449,6 +448,7 @@ figcaption {
   grid-row-start: 7;
   grid-row-end: 9;
 }
+/* Web portfolio ends here */
 
 /* Art portfolio container */
 #art {
@@ -523,18 +523,48 @@ figcaption {
   grid-row-start: 10;
   grid-row-end: 14;
 }
+/* Art portfolio ends here */
 
-
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
+/* Contact me */
+#contact-header {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 60px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-p {
-  margin: 0;
+.contact-me {
+  text-align: center;
 }
+
+div a {
+  padding-left: 2vmax;
+  padding-right: 2vmax;
+  text-decoration: none;
+  color: #443233;
+  font-size: 1.5vmax;
+}
+/* Contact me ends here */
+
+/* Footer section */
+.copyright {
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+  background-color: #3cb6b8;
+  font-weight: 300;
+  margin-top: 30px;
+}
+
+.copyright p {
+  color: #ffffff;
+}
+
+.copyright i {
+  color: red;
+}
+/* Footer ends here */
