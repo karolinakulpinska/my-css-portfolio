@@ -15,7 +15,7 @@ I've also made sure that the application:
 * resembles the mockup functionality as close as possible;
 * follows best practices for file structure and naming conventions as well as class/id naming conventions, indentation, quality comments, etc.
 
-Link to deployed application: https://karolinakulpinska.github.io/my-portfolio-page/
+Link to deployed application: https://karolinakulpinska.github.io/my-css-portfolio/
 
 ## Mock-Up provided by the Company
 
@@ -31,9 +31,9 @@ The following animation shows the web application's appearance and functionality
 
 Please follow the steps below to access code and install the project:
 
-1. Access https://github.com/karolinakulpinska/my-portfolio-page
+1. Access https://github.com/karolinakulpinska/my-css-portfolio
 2. Above the list of files, click on green 'Code' button. 
-![alt text](assets/images/code-button.png)
+![alt text](./assets/images/)
 3. Copy the URL for the repository.
 - To clone the repository using HTTPS, under "HTTPS", click two files button.
 ![alt text](assets/images/copy-to-clipboard.png)
