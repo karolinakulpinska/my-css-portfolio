@@ -43,6 +43,57 @@ pre code {
   font-family: "Charmonman";
 }
 
+/* Navbar starts here */
+nav ul li {
+  list-style: none;
+}
+
+/* Hide dropdown by default */
+nav ul ul {
+  display: none;
+  padding: 0.8vw;
+}
+
+nav ul ul li {
+  width: 17vmin;
+  position: relative;
+}
+
+/* Display dropdown on hover */
+nav ul li:hover > ul {
+  display: inherit;
+}
+
+nav a {
+  font-size: 1.5vmax;
+  display: block;
+  padding: 0.8vw;
+  line-height: 1.1;
+  
+}
+
+/* Remove list decoration */
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #443233;
+}
+
+.small {
+  font-size: 1.3vmax;
+}
+
+nav a:hover {
+  background-color: #d6ebf2;
+}
+
+.numbers {
+  color: #ffa0a6;
+  font-style: italic;
+  list-style: none;
+}
+/* Navbar ends here */
+
 body {
   margin: 0;
   padding: 0;
