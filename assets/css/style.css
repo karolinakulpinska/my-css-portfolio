@@ -72,7 +72,6 @@ nav a {
   display: block;
   padding: 0.8vw;
   line-height: 1.1;
-  
 }
 
 /* Remove list decoration */
@@ -101,7 +100,8 @@ nav a:hover {
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   line-height: 1.5;
   background-color: #ffffff;
   color: #443233;
@@ -303,7 +303,6 @@ body {
 .front-end p {
   line-height: 20px;
 }
-
 
 .dark-link {
   text-decoration: none;
