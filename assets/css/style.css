@@ -96,6 +96,7 @@ nav a:hover {
 }
 /* Navbar ends here */
 
+/* Body starts here */
 body {
   margin: 0;
   padding: 0;
@@ -103,6 +104,13 @@ body {
   line-height: 1.5;
   background-color: #ffffff;
   color: #443233;
+}
+
+/* Hero image displayed under navbar */
+.hero-image {
+  width: 100%;
+  margin-bottom: 0;
+  border: 0.2vmax solid rgb(15, 15, 15);
 }
 
 h1,
