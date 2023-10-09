@@ -16,7 +16,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: bisque;
+  background-color: #ffffff;
 }
 
 .header-img {
@@ -87,7 +87,7 @@ a {
 }
 
 nav a:hover {
-  background-color: #d6ebf2;
+  background-color: #3cb6b8;
 }
 
 .numbers {
