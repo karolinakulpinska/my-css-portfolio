@@ -33,24 +33,24 @@ Please follow the steps below to access code and install the project:
 
 1. Access https://github.com/karolinakulpinska/my-css-portfolio
 2. Above the list of files, click on green 'Code' button. 
-![alt text](./assets/images/)
+![alt text](./assets/images/code-button.png)
 3. Copy the URL for the repository.
 - To clone the repository using HTTPS, under "HTTPS", click two files button.
-![alt text](assets/images/copy-to-clipboard.png)
+![alt text](./assets/images/copy-to-clipboard.png)
 - To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate authority, click SSH, then click two files button.
 - To clone a repository using GitHub CLI, click GitHub CLI, then click two files button.
-4. Open Terminal.
+4. Open Terminal/Git Bash.
 5. Change the current working directory to the location where you want the cloned directory.
 6. Type `git clone`, and then paste the URL you copied earlier.
 
 ```
-$ git clone https://github.com/karolinakulpinska/my-portfolio-page.git
+$ git clone https://github.com/karolinakulpinska/my-css-portfolio.git
 
 ```
 7. Press Enter to create your local clone.
 
 ```
-$ git clone https://github.com/karolinakulpinska/my-portfolio-page.git
+$ git clone https://github.com/karolinakulpinska/my-css-portfolio.git
 > Cloning into `Karolina-Kulpinska-personal-portfolio`...
 > remote: Counting objects: 10, done.
 > remote: Compressing objects: 100% (8/8), done.
