@@ -1,75 +1,84 @@
-# Unit 2 Challenge: Portfolio
+# Karolina Kulpinska - Personal Portfolio
 
-## Your Task
+## Description
 
-This week, you'll build a portfolio page, which you can add to as the course progresses. 
+This week my job was to design and code my personal portfolio website so that it meets typical hiring manager's needs:
+* When the page is loaded the page presents my name, a recent photo or avatar, and links to sections about me, my work, and how to contact me;
+* When one of the links in the navigation is clicked then the UI scrolls to the corresponding section;
+* When viewing the section about my work then the section contains titled images of my applications;
+* When presented with my first application then that application's image should be larger in size than the others;
+* When images of the applications are clicked then the user is taken to that deployed application;
+* When the page is resized or viewed on various screens and devices then the layout is responsive and adapts to my viewport.
 
-A portfolio of work can showcase your skills and talents to employers looking to fill a part-time or full-time position. An effective portfolio highlights your strongest work as well as the thought processes behind it. Students who have portfolios with deployed web applications (meaning they are live on the web) are typically very successful in their career search after the boot camp. This last point can’t be stressed enough: having several deployed projects is a minimum requirement to receive an initial interview at many companies. 
+I've also made sure that the application:
+* loads with no errors;
+* resembles the mockup functionality as close as possible;
+* follows best practices for file structure and naming conventions as well as class/id naming conventions, indentation, quality comments, etc.
 
-With these points in mind, in this challenge you’ll set yourself up for future success by applying the core skills you've recently learned: flexbox, media queries, and CSS variables. You'll get to practice your new skills while creating something that you will use during your job search. It’s a win-win that you'll likely be grateful for in the future!
+Link to deployed application: https://karolinakulpinska.github.io/my-portfolio-page/
 
-**Note:** If you don't have enough web applications to showcase at this point, use placeholder images and names. You can change them to real applications as you create them later in the course.
-
-## Acceptance Criteria
-
-Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager’s needs:
-
-* When the page is loaded the page presents your name, a recent photo or avatar, and links to sections about you, your work, and how to contact you
-* When one of the links in the navigation is clicked then the UI scrolls to the corresponding section
-* When viewing the section about your work then the section contains titled images of your applications
-* When presented with the your first application then that application's image should be larger in size than the others
-* When images of the applications are clicked then the user is taken to that deployed application
-* When the page is resized or viewed on various screens and devices then the layout is responsive and adapts to my viewport
-
-## Mock-Up
+## Mock-Up provided by the Company
 
 The following animation shows the web application's appearance and functionality:
 
-![portfolio demo](./images/01-css-challenge-demo.gif)
+![alt text](./assets/images/01-css-challenge-demo.gif)
 
-Feel free to use your own colors and images.
+## Screenshot of my personal portfolio
 
-## Grading Requirements
+![alt text](./assets/images/screenshot.jpg)
 
-This challenge is graded based on the following criteria: 
+## Installation
 
-### Technical Acceptance Criteria: 40%
+Please follow the steps below to access code and install the project:
 
-* Satisfies all of the above acceptance criteria.
+1. Access https://github.com/karolinakulpinska/my-portfolio-page
+2. Above the list of files, click on green 'Code' button. 
+![alt text](assets/images/code-button.png)
+3. Copy the URL for the repository.
+- To clone the repository using HTTPS, under "HTTPS", click two files button.
+![alt text](assets/images/copy-to-clipboard.png)
+- To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate authority, click SSH, then click two files button.
+- To clone a repository using GitHub CLI, click GitHub CLI, then click two files button.
+4. Open Terminal.
+5. Change the current working directory to the location where you want the cloned directory.
+6. Type `git clone`, and then paste the URL you copied earlier.
 
-### Deployment: 32%
+```
+$ git clone https://github.com/karolinakulpinska/my-portfolio-page.git
 
-* Application deployed at live URL.
+```
+7. Press Enter to create your local clone.
 
-* Application loads with no errors.
+```
+$ git clone https://github.com/karolinakulpinska/my-portfolio-page.git
+> Cloning into `Karolina-Kulpinska-personal-portfolio`...
+> remote: Counting objects: 10, done.
+> remote: Compressing objects: 100% (8/8), done.
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.
 
-* Application GitHub URL submitted.
+```
 
-* GitHub repository contains application code.
+## Licence
 
-### Application Quality: 15%
+MIT License
 
-* Application resembles the mock-up functionality provided in the challenge instructions.
+Copyright (c) 2023 Karolina Kulpinska 
 
-### Repository Quality: 13%
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-* Repository has a unique name.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality readme with description, screenshot, link to deployed application.
-
-## Review
-
-You are required to submit BOTH of the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
-
----
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
