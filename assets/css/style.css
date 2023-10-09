@@ -15,11 +15,13 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: bisque;
 }
 
 .header-img {
   border-radius: 50%;
   border: 0.5vmax solid #ffa0a6;
+  filter: drop-shadow(0 0 1vmax #ffffff);
   width: 15vmax;
   height: 15vmax;
 }
