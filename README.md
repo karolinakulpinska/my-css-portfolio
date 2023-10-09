@@ -25,7 +25,7 @@ The following animation shows the web application's appearance and functionality
 
 ## Screenshot of my personal portfolio
 
-![alt text](./assets/images/screenshot.jpg)
+![alt text](./assets/images/screenshot.png)
 
 ## Installation
 
