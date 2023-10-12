@@ -30,7 +30,7 @@ header {
 h1 {
   margin-left: 2vmax;
   color: #443233;
-  font-size: 2vmax;
+  font-size: 2.5vmax;
   text-align: center;
   line-height: 2;
   margin-right: 2vmax;
@@ -120,12 +120,12 @@ body {
 .welcome-text {
   text-align: center;
   padding: 2vmax;
-  font-size: 2.5vmax;
+  font-size: 2.3vmax;
 }
 
 .subtitle1 {
   text-align: center;
-  font-size: 1.8vmax;
+  font-size: 1.6vmax;
 }
 
 /* About me container */
@@ -153,9 +153,8 @@ body {
 }
 
 .about-col-2 p {
-  margin-top: 10px;
-  font-size: 1.6vmax;
-  padding: 50px;
+  font-size: 1.4vmax;
+  padding: 30px 50px 50px 50px;
 }
 
 .subtitle2 {
@@ -163,6 +162,7 @@ body {
   font-weight: 600;
   text-align: left;
   padding-left: 30px;
+  margin-left: 20px;
 }
 
 /* Contact me btn */
