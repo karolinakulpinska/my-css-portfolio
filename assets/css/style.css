@@ -83,6 +83,8 @@ a {
 
 .small {
   font-size: 1.3vmax;
+  text-decoration: none;
+  list-style: none;
 }
 
 nav a:hover {
@@ -118,12 +120,12 @@ body {
 .welcome-text {
   text-align: center;
   padding: 2vmax;
-  font-size: 2.3vmax;
+  font-size: 2.5vmax;
 }
 
 .subtitle1 {
   text-align: center;
-  font-size: 1.3vmax;
+  font-size: 1.8vmax;
 }
 
 /* About me container */
@@ -151,18 +153,16 @@ body {
 }
 
 .about-col-2 p {
-  margin-top: 20px;
-  font-size: 20px;
-  line-height: 30px;
+  margin-top: 10px;
+  font-size: 1.6vmax;
   padding: 50px;
 }
 
 .subtitle2 {
-  font-size: 2.3vmax;
+  font-size: 2.1vmax;
   font-weight: 600;
-  line-height: 60px;
   text-align: left;
-  padding-left: 50px;
+  padding-left: 30px;
 }
 
 /* Contact me btn */
@@ -219,9 +219,8 @@ body {
 }
 
 .subtitle-skill {
-  font-size: 40px;
+  font-size: 2.1vmax;
   font-weight: 600;
-  line-height: 60px;
   margin-bottom: 50px;
   text-align: center;
 }
@@ -454,6 +453,7 @@ figcaption {
   font-size: 30px;
   font-weight: 600;
   line-height: 60px;
+  margin-top: 30px;
   margin-bottom: 40px;
   display: flex;
   justify-content: center;
